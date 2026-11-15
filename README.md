@@ -2,6 +2,8 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
+[Model weights on Hugging Face](https://huggingface.co/OQ-J/MIRAGE)
+
 Recommended inference settings: Euler sampling, 40 steps, CFG=4.
 
 **The model currently available on Hugging Face produces unsatisfactory results. See the [technical report](docs/TECHNICAL_DESIGN.en.md) for details.**

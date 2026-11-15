@@ -2,6 +2,8 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
+[Hugging Face 模型权重](https://huggingface.co/OQ-J/MIRAGE)
+
 推荐推理设置：Euler 采样，40 步，CFG=4。
 
 **当前 Hugging Face 模型效果不理想，详情见[技术报告](docs/TECHNICAL_DESIGN.zh-CN.md)。**
