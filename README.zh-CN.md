@@ -22,6 +22,7 @@ Triton 训练和推理实现。
 - 图像宽度为 2048，FFN 宽度为 8192；16 个注意力头，每个头的维度为 128。
 - 完整的 1024 维文本 Token 状态，两个 TextAdapter Block，八个前缀 Register。
 - 每个分支使用 AttnRes；采用有效步长为 /16、128 通道的打包 latent。
+- 文本嵌入由 Qwen3-Embedding-0.6B 生成；图像编码和解码使用 FLUX.2 VAE。
 - 直接预测速度的 Rectified Flow：`t=0` 表示数据，`t=1` 表示噪声。
 
 ## 包含的实现

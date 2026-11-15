@@ -22,6 +22,7 @@ Triton training/inference implementation.
 - Image width 2048, FFN width 8192; 16 attention heads with head dimension 128.
 - Full 1024-dimensional text token states, two TextAdapter blocks, eight prefix registers.
 - Per-branch AttnRes; /16 packed latents with 128 channels.
+- Text embeddings are produced by Qwen3-Embedding-0.6B; image encoding and decoding use the FLUX.2 VAE.
 - Direct velocity Rectified Flow: `t=0` is data, `t=1` is noise.
 
 ## Included implementation
