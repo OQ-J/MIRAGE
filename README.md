@@ -2,9 +2,13 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
+Recommended inference settings: Euler sampling, 40 steps, CFG=4.
+
+**The model currently available on Hugging Face produces unsatisfactory results. See the [technical report](docs/TECHNICAL_DESIGN.en.md) for details.**
+
 MIRAGE-1.65B — Tag-conditioned Rectified Flow image generation with Triton training and inference kernels.
 
-[Technical design and engineering notes in Chinese](docs/TECHNICAL_DESIGN.zh-CN.md)
+[Technical design and engineering notes](docs/TECHNICAL_DESIGN.en.md)
 
 
 A code-only snapshot of a text-conditioned Rectified Flow image model and its
@@ -75,7 +79,7 @@ Historical 3090 Euler40/CFG4 sampling: 512², 18.34s → 4.86s; 768×1024,
 Triton path already took 4.98s and 15.69s: most of the gain comes from enabling
 existing fusions, not the small new inference-only changes.
 
-[Detailed measurements](docs/TECHNICAL_DESIGN.zh-CN.md) separate attention cores from complete
+[Detailed measurements](docs/TECHNICAL_DESIGN.en.md) separate attention cores from complete
 sampling, include the memory metric, and preserve the limits of the comparison.
 
 
@@ -92,7 +96,7 @@ This repository is licensed under the MIT License.
 External dependencies and external model weights retain their own terms.
 
 
-[Directory](docs/DIRECTORY_GUIDE.zh-CN.md)
+[Directory](docs/DIRECTORY_GUIDE.en.md)
 
 
-[Training and inference benchmarks](docs/TECHNICAL_DESIGN.zh-CN.md)
+[Training and inference benchmarks](docs/TECHNICAL_DESIGN.en.md)

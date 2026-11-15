@@ -15,6 +15,11 @@
     "sha256": "2e5c02b84e84d8d02b1c5ab1f715abdd67f5ecdad185101abafcfb2c34128f42"
   },
   {
+    "path": "docs/DIRECTORY_GUIDE.en.md",
+    "bytes": 773,
+    "sha256": "1058dd67e1162492d8174a8fe3d294047c6185b8d80a9a80e7f5af382b9d4b5c"
+  },
+  {
     "path": "docs/DIRECTORY_GUIDE.zh-CN.md",
     "bytes": 645,
     "sha256": "b6882889aadd9a589dd169773b8f55b96f36df6985d8f5e9d709d05ed83d451f"
@@ -25,9 +30,14 @@
     "sha256": "c13237a4bc881f7733585bfe938f17d4e67bf245fd233bb8cb7b3eb8b355b352"
   },
   {
+    "path": "docs/TECHNICAL_DESIGN.en.md",
+    "bytes": 18302,
+    "sha256": "f5e74036b20a0529745a7b0c84e58e72a75a8257fa52e3b0951bf904efb7adac"
+  },
+  {
     "path": "docs/TECHNICAL_DESIGN.zh-CN.md",
-    "bytes": 15683,
-    "sha256": "53ea2905d24975461f9354ea0df93c7b8e32abd5dce4745579ee9915f70404b2"
+    "bytes": 15373,
+    "sha256": "005808640f87d9e19d53d56e1c6041e2eced37d771c7666cf8f6cfb74de378c9"
   },
   {
     "path": "examples/forward_backward.py",
@@ -256,12 +266,12 @@
   },
   {
     "path": "README.md",
-    "bytes": 3922,
-    "sha256": "302adbf2c30805eea07c4f2cd4bbe4ba6e2e379197995aec7b537be9a98852d5"
+    "bytes": 4122,
+    "sha256": "c9101912ce1136c6e9931faa2b57feac3d5e39e774c190d3270a07e17d3b14d8"
   },
   {
     "path": "README.zh-CN.md",
-    "bytes": 3960,
-    "sha256": "41bddd055ea603a889af5c8473461e7200912eb3da494c1dd8e71ec87d519c94"
+    "bytes": 4121,
+    "sha256": "f34b0cf36d26de426c9370cdd93308a9cf8a76be48ceb502a7349cb8463c40ba"
   }
 ]
