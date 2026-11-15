@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mirage-rf-kernels"
+version = "0.1.0"
+description = "MIRAGE Rectified Flow model with Triton training and inference kernels"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["torch>=2.8"]
+
+[project.optional-dependencies]
+inference = ["transformers==5.17.0", "diffusers==0.41.0", "safetensors>=0.8", "Pillow>=10", "tqdm>=4.66", "numpy>=1.26"]
+fa4 = ["flash-attn-4==4.0.0b38"]
+optim = ["torch>=2.12"]
+
+[project.scripts]
+mirage-infer = "infer:main"
+
+[tool.setuptools]
+py-modules = ["infer"]
+
+[tool.setuptools.packages.find]
+include = ["mirage*", "integrations*"]

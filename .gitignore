@@ -1,0 +1,45 @@
+# Weights, data and training outputs
+models/
+datasets/
+runs/
+output/
+outputs/
+samples/
+_checks/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.npy
+*.npz
+*.jsonl
+*.log
+*.docx
+*.pdf
+
+# Environments, caches and private connection material
+.venv/
+.fa4env/
+_fa4deps/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.triton/
+.cache/
+.env
+.env.*
+.ssh/
+*.pem
+*.key
+
+# Build products and local editor state
+build/
+dist/
+*.egg-info/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

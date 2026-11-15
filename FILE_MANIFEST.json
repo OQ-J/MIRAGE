@@ -1,0 +1,267 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 500,
+    "sha256": "46727ed8232cf9ec50c48faa88e0912b31cc4ea665d6edb09caaa09012ec889c"
+  },
+  {
+    "path": "ACKNOWLEDGEMENTS.md",
+    "bytes": 968,
+    "sha256": "d0d633c62f819a142b8f4896197d969d29634f6810ed0f590ab503baedcd3844"
+  },
+  {
+    "path": "configs/mirage.json",
+    "bytes": 530,
+    "sha256": "2e5c02b84e84d8d02b1c5ab1f715abdd67f5ecdad185101abafcfb2c34128f42"
+  },
+  {
+    "path": "docs/DIRECTORY_GUIDE.zh-CN.md",
+    "bytes": 1169,
+    "sha256": "e048370f9366995c46ba0ef89652364c17b25ce8ca7716d24c6298aa63f15ace"
+  },
+  {
+    "path": "docs/KERNEL_MAP.md",
+    "bytes": 1605,
+    "sha256": "c13237a4bc881f7733585bfe938f17d4e67bf245fd233bb8cb7b3eb8b355b352"
+  },
+  {
+    "path": "docs/TECHNICAL_DESIGN.zh-CN.md",
+    "bytes": 16562,
+    "sha256": "e09a1bb1e76c7d7a2759bc8a57a4d0def4a6cba43dc6b59f13cdfd30b9c48b75"
+  },
+  {
+    "path": "examples/forward_backward.py",
+    "bytes": 1793,
+    "sha256": "c145d5f477b9b5ec54d80f6b601cef03c3f23527c6d21e188f7d56f73b320745"
+  },
+  {
+    "path": "infer.py",
+    "bytes": 12333,
+    "sha256": "3c5dfc5f787eb890f12a3f39474fcb16924deadca56b7beaf8f8419b95a2d3bf"
+  },
+  {
+    "path": "integrations/__init__.py",
+    "bytes": 74,
+    "sha256": "2ec6740fa0575495a468c0d83dac43fa0ca90fd949e262e683983146a45fa7cb"
+  },
+  {
+    "path": "integrations/flux2_vae.py",
+    "bytes": 2464,
+    "sha256": "cf454a2d478bfa663944b3295b721156b9b487d5381cb42dfe139c1beff62d13"
+  },
+  {
+    "path": "integrations/qwen.py",
+    "bytes": 2308,
+    "sha256": "f4fe255bb328537e663a1ffd794c286ddb4a160cbe3d0a569314203f9d1fe8e7"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1076,
+    "sha256": "966b0d8a65fbef10eba28f514dca07677eff9f47072f87821a50581b1167059b"
+  },
+  {
+    "path": "mirage/__init__.py",
+    "bytes": 181,
+    "sha256": "1d94d8b5a2b9b562d5f9a82a4912c9f641440f0b704434871bac1be308cb84ac"
+  },
+  {
+    "path": "mirage/architecture/__init__.py",
+    "bytes": 32,
+    "sha256": "d39076cc39f7e8c7aab5a7c97fdf0f8730a5b45460f8b2b7e5fb79a02f1886bb"
+  },
+  {
+    "path": "mirage/architecture/model.py",
+    "bytes": 20584,
+    "sha256": "a09535c126409de830984cd524f53623f926657543c33813b96cac8efc692b75"
+  },
+  {
+    "path": "mirage/architecture/packed_text.py",
+    "bytes": 3273,
+    "sha256": "0fa54dd2ab8646de8eacd38079cf5f230ffbccf112b93c04d8102929eb7875ac"
+  },
+  {
+    "path": "mirage/attention/__init__.py",
+    "bytes": 29,
+    "sha256": "a772bb006830cae848be77f16e168ef92b0e2b99f89cf2fb3d4e2ec9b0b7dc28"
+  },
+  {
+    "path": "mirage/attention/attention.py",
+    "bytes": 2187,
+    "sha256": "ba52ff85fbf1dad62f22669296a8fa81f875047d6b3bae47b6a90ecb7ee93869"
+  },
+  {
+    "path": "mirage/attention/attention_delta_triton.py",
+    "bytes": 814,
+    "sha256": "085ca236af235d6ece138fd362284ec0795e5935da84c05e42392f23280d157f"
+  },
+  {
+    "path": "mirage/attention/image_attention_triton.py",
+    "bytes": 9557,
+    "sha256": "bd2b3809852f0162e3a42252f79d3834a37370d9c631c3ea48bff8508f6d9d12"
+  },
+  {
+    "path": "mirage/attention/varlen_triton.py",
+    "bytes": 19497,
+    "sha256": "a471ebeabebb098ac5d5fecf761fcf78af3338c635751ec877b7b3c7589f5fe1"
+  },
+  {
+    "path": "mirage/ops/__init__.py",
+    "bytes": 23,
+    "sha256": "a685d81d0671b187f8985ce6ff41962e00ce6ba332a6935cb8b8c2f41e1b3675"
+  },
+  {
+    "path": "mirage/ops/depth_ada_triton.py",
+    "bytes": 9772,
+    "sha256": "005c9564111d0923d13bafad1da908f9e602a223cf8c01cc55f2c7c267357cda"
+  },
+  {
+    "path": "mirage/ops/depth_triton.py",
+    "bytes": 10410,
+    "sha256": "2efab8e50d4fff99c721f1ad10d06a4b2fcefb32ccdf1d872974213628b73921"
+  },
+  {
+    "path": "mirage/ops/elementwise_triton.py",
+    "bytes": 2128,
+    "sha256": "360601b535bf11213e301b95ad5eeaa8e5cb5d22886a1d2709ffd05f2b132ae8"
+  },
+  {
+    "path": "mirage/ops/fused_ops.py",
+    "bytes": 2562,
+    "sha256": "7a8e94b3d575e5b3e33e821edce78becf45c281cd0a49c10e846f01b04ad29b7"
+  },
+  {
+    "path": "mirage/ops/gate.py",
+    "bytes": 349,
+    "sha256": "6e59a9c735331a3094d0a14b71f076a850615f530a8ba48ff3a37a236d234b20"
+  },
+  {
+    "path": "mirage/ops/gate_triton.py",
+    "bytes": 2260,
+    "sha256": "2559b262083d345f34f1bb39db81f964aabaa8dc649e6a3e1033325bf9b2abb2"
+  },
+  {
+    "path": "mirage/ops/history_merge.py",
+    "bytes": 5209,
+    "sha256": "ea10d27fa853bbbe6540ac614bbf728041dee578d06b5202f17b1ee7152fcc89"
+  },
+  {
+    "path": "mirage/ops/history_merge_triton.py",
+    "bytes": 2443,
+    "sha256": "edf8adeab32d79e7e9749d1084fbcf876e5259bb57c0632baed25ba289c62d08"
+  },
+  {
+    "path": "mirage/ops/norm_triton.py",
+    "bytes": 6885,
+    "sha256": "06ab14062c702a2049bc77d7ecc05a5a8dd784ee1c0fbd901b9a7fb135007b54"
+  },
+  {
+    "path": "mirage/ops/qkv_triton.py",
+    "bytes": 7213,
+    "sha256": "12ebebfb132bf150cbc5c94aa668ee3121e8a21dd907ec00137552be1d4740ac"
+  },
+  {
+    "path": "mirage/ops/rope_triton.py",
+    "bytes": 3705,
+    "sha256": "a434bb1d69861220c2b943e72f6350e66edbc10987389685667f7799e1cf5908"
+  },
+  {
+    "path": "mirage/ops/text_qkv_triton.py",
+    "bytes": 6028,
+    "sha256": "f319b5553bcef8d29ddc78ed334b3d3aa08f4b1ff36154aa4f9f35b22ed4e410"
+  },
+  {
+    "path": "mirage/ops/write_ops.py",
+    "bytes": 924,
+    "sha256": "05890383910c9068ed48bd9ebbf6b84aabb91699a6a65418fb714ccdafa1da29"
+  },
+  {
+    "path": "mirage/ops/write_triton.py",
+    "bytes": 3591,
+    "sha256": "ec23bcfe6352b36673bb69824c9d05ddd0bc53762e05610aab03eb4148511f1e"
+  },
+  {
+    "path": "mirage/optimizers/__init__.py",
+    "bytes": 30,
+    "sha256": "baa37f0a3c50c00df2c105625335812d02256c9410089b272b4ab5a1c8fc2065"
+  },
+  {
+    "path": "mirage/optimizers/adam_update.py",
+    "bytes": 2897,
+    "sha256": "5944ec318de629fe05462b88b5c5e67b3d7a3a4fc4cf07996c40b0afb168f17d"
+  },
+  {
+    "path": "mirage/optimizers/adam_update_triton.py",
+    "bytes": 3756,
+    "sha256": "713d1cbd64a29c73e2a24b85352cb1ed2f79e87bca6e51552399d61b496dfccf"
+  },
+  {
+    "path": "mirage/optimizers/grad_norm.py",
+    "bytes": 575,
+    "sha256": "31fc99d33d380455880c3917935ec9d9fa4a4d402818fd2a4d887f9f1a1f54e2"
+  },
+  {
+    "path": "mirage/optimizers/grad_norm_triton.py",
+    "bytes": 2782,
+    "sha256": "110c0b4482c8732eebfb02e7b29c5413843317a0f2498dd68e495ad6192fb597"
+  },
+  {
+    "path": "mirage/optimizers/muon.py",
+    "bytes": 12137,
+    "sha256": "6825ce66fcd144078726c715a2ffae1c51786e1115ad0dbf1dbdc43b3d335aa6"
+  },
+  {
+    "path": "mirage/optimizers/muon_fast.py",
+    "bytes": 1956,
+    "sha256": "70e3a78b5aaf3fec16c59a04366052b7b696991afbe91a19606c1f71a45a4187"
+  },
+  {
+    "path": "mirage/optimizers/optim.py",
+    "bytes": 4233,
+    "sha256": "789c576c98ed0460cd26d27d1c37cf05fc78b481192192e47527e084fc91dd49"
+  },
+  {
+    "path": "mirage/runtime/__init__.py",
+    "bytes": 27,
+    "sha256": "91d2c1e5b0f5fd51594385f03be08361858ced9e6b4176cc07377bebb4931747"
+  },
+  {
+    "path": "mirage/runtime/checkpoint.py",
+    "bytes": 2288,
+    "sha256": "a3d38e113eeadb12c228977b134fa8c440df257d76aa1556d504fc99c20dc722"
+  },
+  {
+    "path": "mirage/runtime/constant_cache.py",
+    "bytes": 2198,
+    "sha256": "767b4aa900026c1c130d47752fb971a4c14ea535e0cd3fdbcdaea4453550cecf"
+  },
+  {
+    "path": "mirage/runtime/flow.py",
+    "bytes": 3321,
+    "sha256": "54be144364559f4ac9165b697eeab052189f910aa8fc4041007d8e4f4ff39e99"
+  },
+  {
+    "path": "mirage/runtime/flow_triton.py",
+    "bytes": 2909,
+    "sha256": "21fd18f70d01c598df24877b5642c7da9d5851a0c4719772d89d7623d48d01cc"
+  },
+  {
+    "path": "mirage/runtime/text_cache.py",
+    "bytes": 842,
+    "sha256": "eb188679bfdb849cd9bb9a15b34409c87efaa5ef9bb13ad1007f4fb7b0a88aca"
+  },
+  {
+    "path": "pyproject.toml",
+    "bytes": 703,
+    "sha256": "b547986221c4578375d8c7166450c032d7865000d2cc4e2d2cf49ebfaf6ea9d5"
+  },
+  {
+    "path": "README.md",
+    "bytes": 3892,
+    "sha256": "3ef881b6f1366fefefe4e7465880f640ac99e75bd77c67c723c55bb9a860fbb7"
+  },
+  {
+    "path": "README.zh-CN.md",
+    "bytes": 3929,
+    "sha256": "bf896dbf48761741a4e9417f056ae94cfbc4259c0c1eccaee058ccca1b523243"
+  }
+]
