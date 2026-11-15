@@ -1,10 +1,11 @@
 # MIRAGE
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 MIRAGE-1.65B — 使用 Tag 条件的 Rectified Flow 图像生成模型，配有 Triton 训练和推理内核。
 
 [中文技术设计与工程说明](docs/TECHNICAL_DESIGN.zh-CN.md)
 
-[中文](README.zh-CN.md)
 
 一份仅含代码的快照，包含文本条件 Rectified Flow 图像模型及其
 Triton 训练和推理实现。

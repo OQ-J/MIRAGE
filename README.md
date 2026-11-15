@@ -1,10 +1,11 @@
 # MIRAGE
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 MIRAGE-1.65B — Tag-conditioned Rectified Flow image generation with Triton training and inference kernels.
 
 [Technical design and engineering notes in Chinese](docs/TECHNICAL_DESIGN.zh-CN.md)
 
-[Chinese](README.zh-CN.md)
 
 A code-only snapshot of a text-conditioned Rectified Flow image model and its
 Triton training/inference implementation. 

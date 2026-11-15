@@ -273,7 +273,7 @@ Euler40、CFG4、B1、768×1024，预热后仅计主体采样：
 | Triton融合＋FA4核心 | 15.391 |
 
 主要提升来自启用一整套融合执行。
-单层测试中图像Self-Attention是PyTorch Flash更快；短文本Cross＋Gate是自写融合核更快；长文本时优势会改变。
+单层测试中图像Self-Attention是PyTorch Flash更快；短文本Cross＋Gate是自写融合核更快。
 
 ### 10.3 Attention 单层前向
 
@@ -353,17 +353,7 @@ python infer.py --prompt "sfw, 1girl, blue_hair, full_body, standing, white_shir
 | 推理入口 | `infer.py` |
 
 公开目录展示可复用模型、训练/推理算子及推理入口。
-RF、Transformer、RMSNorm、RoPE、Muon和FlashAttention等算法有各自来源，
-本项目的工作是架构组合、工程集成与执行优化；参见[算法与依赖来源](../ACKNOWLEDGEMENTS.md)。
-测试只适用于记录的硬件、形状和版本。
 
 
 
-## 发布接口
 
-模型名称为MIRAGE，当前规格为MIRAGE-1.65B。Python入口为
-`from mirage import MIRAGEModel, ModelConfig`，配置文件为`configs/mirage.json`。
-安装后的推理命令为`mirage-infer`，也可继续运行`python infer.py`。
-环境开关统一采用MIRAGE_前缀，调优缓存默认使用`.cache/mirage`。
-名称和路径变化会使首次Kernel编译或选型重新发生，不能把初次运行用于稳态速度比较。
-主体权重Tensor名称与计算不因品牌更名改变；文件读取层仍支持已存在的兼容权重文件。

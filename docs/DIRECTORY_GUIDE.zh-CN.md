@@ -14,13 +14,3 @@ mirage/
 训练和推理共用许多内核，因此不强行复制成两套文件。
 
 
-## Muon 是怎样工作的？
-
-| 文件 | 分工 |
-|---|---|
-| optimizers/muon.py | 优化器管理：参数分类、逻辑矩阵拆分、动量/状态、学习率和更新调度 |
-| optimizers/muon_fast.py | 执行加速：同形矩阵批量 Newton–Schulz、工作缓冲复用、编译逐元素计算 |
-| optimizers/optim.py | FP32 主权重与 AdamW 基础实现 |
-| optimizers/grad_norm_triton.py | BF16→FP32 梯度转换和范数归约 |
-| optimizers/adam_update_triton.py | AdamW 更新的融合内核 |
-
